@@ -1,5 +1,13 @@
-const age = 18;
+const age = prompt('enter your age');
 
-if (age >= 16) {
-    console.log('you can drive');
+switch (Number(age)) {
+    case 10:
+        alert('you are 10');
+        break;
+    case 20:
+        alert('you are 20');
+        break;
+    case 30:
+        alert('you are 30');
+        break;
 }
