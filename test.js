@@ -1,13 +1,17 @@
-const age = prompt('enter your age');
+const matrix = [];
 
-switch (Number(age)) {
-    case 10:
-        alert('you are 10');
-        break;
-    case 20:
-        alert('you are 20');
-        break;
-    case 30:
-        alert('you are 30');
-        break;
+for (let i = 0; i < 6; i++) {
+    const numbers = [];
+
+    
+        for (let j = i * 2; j < i * 2 + 2; j++) {
+            numbers.push(j + 1);
+            for (let k = 0; k < 6; k++) {
+                const for3 = [];
+        
+        }
+    }
+    matrix.push(numbers);
 }
+
+console.log(matrix);
