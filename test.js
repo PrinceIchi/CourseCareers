@@ -1,4 +1,4 @@
-const x = 2;
+<const x = 2;
 
 try {
    console.log('try');
@@ -7,4 +7,4 @@ try {
    console.log(err);
 } finally {
    console.log('finally')
-}
+}>
