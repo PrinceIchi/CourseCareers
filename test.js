@@ -1,6 +1,10 @@
-while (true) {
-   const number = Number(prompt("enter a number between one and ten"));
-   if (number >= 1 && number <= 10) break;
-}
+const x = 2;
 
-alert(number);
+try {
+   console.log('try');
+   throw 'this is an error'
+} catch (err) {
+   console.log(err);
+} finally {
+   console.log('finally')
+}
