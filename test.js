@@ -1,3 +1,2 @@
-function enterUsername() {
-   alert(this)
-}
+const num = Math.round(Math.random() * 10);
+console.log(num);
